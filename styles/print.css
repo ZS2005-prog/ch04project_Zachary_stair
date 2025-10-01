@@ -1,0 +1,9 @@
+@media print {
+    nav, 
+    img {
+        display:  none;
+    }
+    section {
+        page-break-after: always;
+    }
+}
